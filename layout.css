@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option{
+  height: 200px;
+  width: 400px;
+  background-color: white;
+  border: 5px solid black;
+  color: black;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.tie{
+  background: gray;
+}
+
+.win{
+  background: green;
+}
+
+.lose{
+  background: red;
+}
